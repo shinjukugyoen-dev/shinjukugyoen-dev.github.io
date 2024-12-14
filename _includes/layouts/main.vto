@@ -7,8 +7,12 @@ language: ja
     <meta charset="utf-8">
     <title>{{ title }} | 新宿御苑.dev</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
     <main>{{ content }}</main>
+    <footer>
+      {{ include "footer.vto" }}
+    </footer>
   </body>
 </html>
