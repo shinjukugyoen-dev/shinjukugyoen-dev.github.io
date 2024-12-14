@@ -2,6 +2,7 @@
 title: イベント行動規範
 layout: layouts/main.vto
 ---
+
 # <ruby>イベント行動規範<rt>Event Code of Conduct</rt></ruby>
 
 新宿御苑.devのイベント行動規範は、下記のような事柄に関わらずすべての人にとって安心・安全なイベント体験を提供するためのものです。
@@ -69,4 +70,3 @@ layout: layouts/main.vto
 
 ※本文章は[Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)で公開されている[メルカリ イベント行動規範](https://about.mercari.com/event-code-of-conduct/)をベースに作成しています。
 本文章もCreative Commons Zero licenseで公開しています。
-
