@@ -1,0 +1,5 @@
+<ul>
+  {{ for content of site.contents.slice(0, -1) }} 
+    <li><a href="{{ content.path }}">{{ content.title }}</a></li>
+  {{ /for }}
+</ul>

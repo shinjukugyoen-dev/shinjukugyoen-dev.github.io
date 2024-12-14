@@ -5,7 +5,7 @@
 
 新宿御苑を運営している環境省 新宿御苑管理事務所とは一切関係ありません。
 
-- [イベント行動規範](./event-code-of-conduct)\
+- [イベント行動規範](https://shinjukugyoen-dev.github.io/event-code-of-conduct/)\
   イベントに参加される方は必ずお読みください。
 - [Connpassグループ](https://shinjukugyoen.connpass.com/)\
   開催するイベントはConnpassにて公開しています。

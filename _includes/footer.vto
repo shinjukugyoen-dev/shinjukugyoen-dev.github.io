@@ -1,7 +1,10 @@
+<nav>
+  {{ include "nav.vto" }}
+</nav>
 <p>
   <a href="https://github.com/shinjukugyoen-dev/shinjukugyoen-dev.github.io">Repository</a>
   | Powered by <a href="https://lume.land" target="_blank">Lume</a>
 </p>
 <p>
-  &copy; {{ date |> date("yyyy") }} 新宿御苑.dev
+  &copy; {{ date |> date("yyyy") }} {{ site.title }}
 </p>

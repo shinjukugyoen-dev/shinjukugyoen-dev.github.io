@@ -1,0 +1,19 @@
+[site]
+title = "新宿御苑.dev"
+description = "新宿御苑.devは、新宿御苑が好きなエンジニアのための地域コミュニティです。新宿御苑内のコワーキングスペースなどを活用したイベント開催を目的としています。"
+
+[[site.contents]]
+title = "トップ"
+path = "/"
+
+[[site.contents]]
+title = "イベント情報"
+path = "/events"
+
+[[site.contents]]
+title = "イベント行動規範"
+path = "/event-code-of-conduct"
+
+[[site.contents]]
+title = "開催レポート"
+path = "/reports"
