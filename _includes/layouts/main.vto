@@ -3,9 +3,6 @@ language: ja
 ---
 <!doctype html>
 <html lang="{{ language }}">
-  <header>
-  {{ include "header.vto" }}
-  </header>
   <head>
     <meta charset="utf-8">
     <title>{{ title }} | {{ site.title }}</title>
@@ -14,9 +11,8 @@ language: ja
     <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
+    <header>{{ include "header.vto" }}</header>
     <main>{{ content }}</main>
-    <footer>
-      {{ include "footer.vto" }}
-    </footer>
+    <footer>{{ include "footer.vto" }}</footer>
   </body>
 </html>
