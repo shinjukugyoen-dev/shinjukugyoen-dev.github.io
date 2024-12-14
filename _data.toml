@@ -1,6 +1,7 @@
 [site]
 title = "新宿御苑.dev"
 description = "新宿御苑.devは、新宿御苑が好きなエンジニアのための地域コミュニティです。新宿御苑内のコワーキングスペースなどを活用したイベント開催を目的としています。"
+since = "2024"
 
 [[site.contents]]
 title = "トップ"
@@ -17,3 +18,15 @@ path = "/event-code-of-conduct"
 [[site.contents]]
 title = "開催レポート"
 path = "/reports"
+
+[[site.links]]
+name = "Connpassグループ"
+url = "https://shinjukugyoen.connpass.com/"
+
+[[site.links]]
+name = "Discordサーバー"
+url = "https://discord.com/invite/eYPCYu2zxX"
+
+[[site.links]]
+name = "𝕏ハッシュタグ (#新宿御苑dev)"
+url = "https://x.com/search?q=%23%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91dev"

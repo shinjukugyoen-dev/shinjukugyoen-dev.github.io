@@ -6,5 +6,5 @@
   | Powered by <a href="https://lume.land" target="_blank">Lume</a>
 </p>
 <p>
-  &copy; {{ date |> date("yyyy") }} {{ site.title }}
+  &copy; {{ if date.getFullYear() != site.since }}{{ site.since }} -{{ /if }} {{ date |> date("yyyy") }} {{ site.title }}
 </p>
