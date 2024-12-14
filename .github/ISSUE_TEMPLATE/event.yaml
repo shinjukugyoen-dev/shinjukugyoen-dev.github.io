@@ -1,0 +1,30 @@
+name: イベント開催
+description: イベントを開催したい時に立てるIssueです
+title: "イベント開催: "
+body:
+  - type: input
+    attributes:
+      label: イベント名
+      description: 開催したいイベントの名前を入力してください
+      placeholder: "例: 新宿御苑.wasm"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 開催日時
+      description: 開催希望日時を入力してください
+      placeholder: "例: 1月の休日昼"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 開催場所
+      description: 開催希望場所を入力してください
+      placeholder: "例: 新宿御苑内のコワーキングスペース"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: イベント概要
+      description: 開催したいイベントの概要を入力してください
+      placeholder: "例: WasmのLTイベントの開催を予定しています"
