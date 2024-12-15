@@ -4,7 +4,7 @@ import { Event } from "./events.tsx";
 export const layout = "layouts/main.vto";
 export const title = "新宿御苑.devについて";
 
-export default function ({ title, event, site }: Data) {
+export default function ({ title, event, site, search }: Data) {
   const { events } = event;
   return (
     <>
@@ -31,6 +31,15 @@ export default function ({ title, event, site }: Data) {
 
       <h2>イベント情報</h2>
       {events.slice(0, 3).map((event, i) => <Event key={i} event={event} />)}
+
+      <h2>開催レポート</h2>
+      <ul>
+        {search.pages("report", "date=desc", 3).map(({ title, url }, i) => (
+          <li key={i}>
+            <a href={url}>{title}</a>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

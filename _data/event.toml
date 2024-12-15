@@ -3,7 +3,7 @@ name = "新宿御苑.dev (もくもく会)"
 description = "コワーキングスペースでのもくもく会をを予定してます"
 
 [[events]]
-name = "新宿御苑.wasm"
+name = "新宿御苑.wasm #2024.12.11"
 description = "WebAssemblyのLTイベントです"
 date = "2024年12月11日"
 connpass = "https://shinjukugyoen.connpass.com/event/338017/"

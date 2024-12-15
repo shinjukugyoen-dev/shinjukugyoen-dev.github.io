@@ -20,11 +20,19 @@ header {
     white-space: nowrap;
   }
   & > nav > ul {
+    position: relative;
     margin-bottom: 1rem;
     justify-content: end;
   }
   @media (max-width: 768px) {
     display: block;
+    & > h1 {
+      margin: 0.5rem 0;
+    }
+    & > nav > ul {
+      margin: 0.5rem 0;
+      gap: 0.5rem;
+    }
   }
 }
 
@@ -66,5 +74,16 @@ dl {
   }
   & > dd {
     margin: 0;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+  thead {
+    border-bottom: 1px solid;
+  }
+  th, td {
+    padding: 0.5rem 1rem;
   }
 }
