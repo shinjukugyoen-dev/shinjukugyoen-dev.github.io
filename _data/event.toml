@@ -1,6 +1,8 @@
 [[events]]
-name = "新宿御苑.dev (もくもく会)"
+name = "新宿御苑.dev (もくもく会) #2025.1.18"
 description = "コワーキングスペースでのもくもく会をを予定してます"
+date = "2025年1月18日"
+connpass = "https://shinjukugyoen.connpass.com/event/340280/"
 
 [[events]]
 name = "新宿御苑.wasm #2024.12.11"
