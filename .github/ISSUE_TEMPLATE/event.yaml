@@ -1,6 +1,8 @@
 name: イベント開催
 description: イベントを開催したい時に立てるIssueです
 title: "イベント開催: "
+labels:
+  - event
 body:
   - type: input
     attributes:
