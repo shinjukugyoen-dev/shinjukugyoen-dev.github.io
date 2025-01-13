@@ -1,4 +1,9 @@
 [[events]]
+name = "新宿御苑.wasm #2025.2.28"
+description = "WebAssemblyのLTイベントです"
+date = "2025年2月28日"
+
+[[events]]
 name = "新宿御苑.dev (もくもく会) #2025.1.18"
 description = "コワーキングスペースでのもくもく会をを予定してます"
 date = "2025年1月18日"
