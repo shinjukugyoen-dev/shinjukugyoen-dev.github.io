@@ -1,4 +1,4 @@
-import type { Data } from "./types.ts";
+import type { Data } from "./_data/types.ts";
 
 export const layout = "layouts/main.vto";
 export const title = "イベント情報";

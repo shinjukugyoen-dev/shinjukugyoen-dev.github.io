@@ -10,6 +10,7 @@ export type Data = {
     links: {
       name: string;
       url: string;
+      description: string;
     }[];
   };
   // イベント情報

@@ -7,6 +7,10 @@ title = "トップ"
 path = "/"
 
 [[contents]]
+title = "新宿御苑.devについて"
+path = "/about"
+
+[[contents]]
 title = "イベント情報"
 path = "/events"
 
@@ -18,18 +22,29 @@ path = "/event-code-of-conduct"
 title = "開催レポート"
 path = "/reports"
 
+# 関連リンク
+
+[[links]]
+name = "GitHubリポジトリ"
+url = "https://github.com/shinjukugyoen-dev/shinjukugyoen-dev.github.io"
+description = "情報サイトの管理とイベントの企画を行なっています"
+
 [[links]]
 name = "Connpassグループ"
 url = "https://shinjukugyoen.connpass.com/"
+description = "イベント参加者の募集に利用しています"
 
 [[links]]
-name = "Discordサーバー"
+name = "Discordサーバ"
 url = "https://discord.com/invite/eYPCYu2zxX"
-
-[[links]]
-name = "MIXI2コミュニティー"
-url = "https://mixi.social/communities/96602d7e-dea6-4325-ba69-d749416dbe9a/about"
+description = "オンラインコミュニケーションの場として利用しています"
 
 [[links]]
 name = "𝕏ハッシュタグ (#新宿御苑dev)"
 url = "https://x.com/search?q=%23%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91dev"
+description = "イベント当日の盛り上げに利用しています"
+
+[[links]]
+name = "mixi2コミュニティ"
+url = "https://mixi.social/communities/96602d7e-dea6-4325-ba69-d749416dbe9a/about"
+description = "イベント告知を行なっています (とりあえず作成しました)"
