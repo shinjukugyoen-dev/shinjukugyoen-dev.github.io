@@ -5,7 +5,8 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "report": "_bin/new_report.rb"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
