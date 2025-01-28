@@ -18,4 +18,6 @@ site.use(favicon({
   input: "/assets/icon.png",
 }));
 
+site.ignore("README.md");
+
 export default site;
