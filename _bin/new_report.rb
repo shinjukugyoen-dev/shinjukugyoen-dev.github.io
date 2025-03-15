@@ -3,7 +3,7 @@
 require 'time'
 
 abort '日付と拡張子を指定してください
-Usage: new_report.rb <date> <ext>' if ARGV.size != 2
+Usage: new_report.rb 2025/1/1 wasm' if ARGV.size != 2
 
 date = Time.parse ARGV[0]
 ext = ARGV[1]
