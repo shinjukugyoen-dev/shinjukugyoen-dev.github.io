@@ -11,7 +11,7 @@
   },
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "npm:react",
+    "jsxImportSource": "lume",
     "jsxImportSourceTypes": "npm:@types/react",
     "types": [
       "lume/types.ts"

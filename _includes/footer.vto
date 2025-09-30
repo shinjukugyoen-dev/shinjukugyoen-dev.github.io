@@ -2,9 +2,13 @@
   {{ include "nav.vto" }}
 </nav>
 <p>
-  <a href="https://github.com/shinjukugyoen-dev/shinjukugyoen-dev.github.io">Repository</a>
+  <a href="https://github.com/shinjukugyoen-dev/shinjukugyoen-dev.github.io"
+  >Repository</a>
   | Powered by <a href="https://lume.land" target="_blank">Lume</a>
 </p>
 <p>
-  &copy; {{ if date.getFullYear() != site.since }}{{ site.since }} -{{ /if }} {{ date |> date("yyyy") }} {{ site.title }}
+  &copy; {{ if date.getFullYear() != site.since }}{{ site.since }} -{{ /if }} {{
+    date
+    |> date("yyyy")
+  }} {{ site.title }}
 </p>

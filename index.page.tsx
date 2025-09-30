@@ -1,5 +1,5 @@
 import type { Data } from "./_data/types.ts";
-import { Event } from "./events.tsx";
+import { Event } from "./events.page.tsx";
 
 export const layout = "layouts/main.vto";
 export const title = "トップ";
