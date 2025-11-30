@@ -1,4 +1,10 @@
 [[events]]
+name = "新宿御苑.wasm #2025.12.20"
+description = "LTイベントです"
+date = "2025年12月20日"
+connpass = "https://shinjukugyoen.connpass.com/event/377580/"
+
+[[events]]
 name = "新宿御苑.wasm #2025.10.19"
 description = "WebAssemblyのLTイベントです"
 date = "2025年10月19日"
